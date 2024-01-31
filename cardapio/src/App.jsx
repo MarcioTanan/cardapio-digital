@@ -1,4 +1,10 @@
-export function App(){
+import Hashtaurante from './assets/hashtaurante.jpeg'
+import './App.css'
+import { Navegacao } from './Navegacao'
 
-  return <h1>Título da minha página em React</h1>
+export function App(){
+  return <>
+            <img src={Hashtaurante} alt="" className='capa'/> 
+            <Navegacao/>
+        </>
 }
